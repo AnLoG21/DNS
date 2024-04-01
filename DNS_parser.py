@@ -50,7 +50,7 @@ def parse_characteristics_page(driver, url):
 
     notebook["Категория"] = category.text.lstrip(': ')
     notebook["Наименование"] = name.text[15:]
-    notebook["Цена"] = price
+    notebook["Цена"] = int(price.text.replace(' ', '')[:-1])
     notebook["Доступность"] = avail.text if avail is not None else 'Товара нет в наличии'
     notebook["Ссылка на товар"] = url
     notebook["Описание"] = desc.text
@@ -124,19 +124,19 @@ def to_db(data, driver, file_name="db"):
 
     notebook["Категория"] = category.text.lstrip(': ')
     notebook["Наименование"] = name.text[15:]
-    notebook["Цена"] = price
+    notebook["Цена"] = int(price.text.replace(' ', '')[:-1])
 
 
 
     conn = psycopg2.connect(dbname="postgres", user="postgres", password="Log680968amr", host="127.0.0.1")
     cursor = conn.cursor()
 
-    query = """ CREATE TABLE IF NOT EXISTS DNS(id INTEGER, price INTEGER, name TEXT, category TEXT) """
+    query = """ CREATE TABLE IF NOT EXISTS DNS(id INTEGER, price INT, name TEXT, category TEXT) """
     cursor.execute(query)
     # добавляем строку в таблицу people
-    query1 = """INSERT INTO DNS(price, name, category) VALUES (?, ?, ?)"""
+    query1 = """INSERT INTO DNS(price, name, category) VALUES (%s, %s, %s)"""
     cursor.execute(query1,
-                    (int(price.text.replace(' ', '')[:-1]), str(name.text[15:]), str(category.text.lstrip(': '))))
+                    ((int(price.text.replace(' ', '')[:-1])), str(name.text[15:]), str(category.text.lstrip(': '))))
     # выполняем транзакцию
     conn.commit()
     print("Данные добавлены")
