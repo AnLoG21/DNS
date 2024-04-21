@@ -148,8 +148,7 @@ def to_db(data, driver, file_name="db"):
 def main():
     driver = uc.Chrome()
     urls_to_parse = [
-        'https://www.dns-shop.ru/catalog/53365bed33fadd6c/umnye-skakalki/?p={page}',
-        'https://www.dns-shop.ru/catalog/17a8a8a816404e77/rezaki/?p={page}'
+        'https://www.dns-shop.ru/catalog/17a9db2916404e77/ofisnye-prilozheniya/?p={page}',
     ]
 
     urls = []

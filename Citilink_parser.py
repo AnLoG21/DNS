@@ -82,7 +82,7 @@ def get_all_category_page_urls(driver, url_to_parse):
             number_of_pages = [int(x) for x in str(i) if x.isdigit()]
 
     res = int(''.join(map(str, number_of_pages)))
-    pages_total = ((res // 190501718) )
+    pages_total = ((res // 1950285285))
     logging.warning(f'Всего в категории {pages_total} страницы')
 
     urls = []
@@ -151,7 +151,7 @@ def to_db(data, driver, file_name="db"):
 def main():
     driver = uc.Chrome()
     urls_to_parse = [
-        'https://www.citilink.ru/catalog/noutbuki/HUAWEI/?ref=mainmenu&ref=mainmenu/?p={page}',
+        'https://www.citilink.ru/catalog/ofisnye-prilozheniya/?ref=mainmenu/?p={page}',
 
     ]
 
