@@ -1,4 +1,7 @@
+from random import randint
+import random
 
+import psycopg2
 import requests
 import json
 
@@ -24,15 +27,41 @@ headers = {
 
 response = requests.request("POST", url, headers=headers, data=payload).json()
 
+#Проверка response.status_code=200
+#Откат в файл
 
 
 products = response['data']['productsFilter']['record']['products']
 for product in products:
   price = product['price']['current']
+  if price == '0' or price == 'None' or price == '' or price == 'none' or price == 0:
+    price = '0'
   name = product['name']
   category = product['category']['name']
   brand = product['brand']['name']
   image = product['images']['citilink'][0]['sources'][0]['url']
+
+  #запись в бд
+
+  conn = psycopg2.connect(dbname="postgres", user="postgres", password="Log680968amr", host="127.0.0.1")
+  cursor = conn.cursor()
+
+  query = """ CREATE TABLE IF NOT EXISTS citilink(id INTEGER, price INT, name TEXT, category TEXT, brand TEXT, image TEXT) """
+  cursor.execute(query)
+  # добавляем строку в таблицу
+  query1 = """INSERT INTO citilink(price, name, category, brand, image) VALUES (%s, %s, %s, %s, %s)"""
+  cursor.execute(query1,((price,name,category,brand,image)))
+  # выполняем транзакцию
+  conn.commit()
+  cursor.close()
+  conn.close()
+
+
+
+
+
+
+
 
   print(price, name, category, brand, image)
 

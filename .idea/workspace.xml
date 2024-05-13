@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb57462-67ec-48b2-9d6f-b1b4d421ac57" name="Changes" comment="Ver 1.0.2">
-      <change afterPath="$PROJECT_DIR$/tt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttt_dns.py" afterDir="false" />
+    <list default="true" id="7fb57462-67ec-48b2-9d6f-b1b4d421ac57" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/Compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Citilink_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt.py" beforeDir="false" afterPath="$PROJECT_DIR$/DNS_Parsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttt_dns.py" beforeDir="false" afterPath="$PROJECT_DIR$/Citilink_Parsing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +49,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for test_handlers.test_create_user.executor": "Run",
+    "Python.Citilink_Parsing.executor": "Run",
     "Python.Citilink_parser.executor": "Run",
     "Python.Compare.executor": "Run",
+    "Python.DNS_Parsing.executor": "Run",
     "Python.DNS_parser.executor": "Run",
     "Python.main.executor": "Run",
     "Python.tt.executor": "Run",
@@ -201,7 +203,8 @@
       <workItem from="1713616214933" duration="3247000" />
       <workItem from="1713713497795" duration="6015000" />
       <workItem from="1713730346203" duration="1150000" />
-      <workItem from="1715591300047" duration="9966000" />
+      <workItem from="1715591300047" duration="10041000" />
+      <workItem from="1715614961774" duration="4176000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0.0">
       <option name="closed" value="true" />
@@ -235,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713719245560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ver 1.0.3">
+      <option name="closed" value="true" />
+      <created>1715606562114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715606562114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,15 +268,18 @@
     <MESSAGE value="Ver 1.0.0" />
     <MESSAGE value="Ver 1.0.1" />
     <MESSAGE value="Ver 1.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.0.2" />
+    <MESSAGE value="Ver 1.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.0.3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PetProg$Compare.coverage" NAME="Compare Coverage Results" MODIFIED="1715605138782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PetProg$DNS_Parsing.coverage" NAME="DNS_Parsing Coverage Results" MODIFIED="1715618975558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PetProg$Compare.coverage" NAME="Compare Coverage Results" MODIFIED="1715617205056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$Citilink_parser.coverage" NAME="Citilink_parser Coverage Results" MODIFIED="1713618625892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$DNS_parser.coverage" NAME="DNS_parser Coverage Results" MODIFIED="1713618720017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$main.coverage" NAME="main Coverage Results" MODIFIED="1709893497130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PetProg$ttt_dns.coverage" NAME="ttt_dns Coverage Results" MODIFIED="1715600560423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PetProg$tt.coverage" NAME="tt Coverage Results" MODIFIED="1715598046355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PetProg$Citilink_Parsing.coverage" NAME="Citilink_Parsing Coverage Results" MODIFIED="1715618794928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PetProg$ttt_dns.coverage" NAME="ttt_dns Coverage Results" MODIFIED="1715616366586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PetProg$tt.coverage" NAME="tt Coverage Results" MODIFIED="1715616685203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$.coverage" NAME=" Coverage Results" MODIFIED="1709899202349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
