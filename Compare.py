@@ -1,9 +1,5 @@
 import psycopg2
 
-import Citilink_parser
-import DNS_parser
-
-
 def main():
     TitleName = str(input())
     print("Введите название товара:", TitleName)
@@ -20,7 +16,6 @@ def main():
     cursor.execute(query1)
     result1 = cursor.fetchall()
     print(result1)
-    # выполняем транзакцию
     conn.commit()
     cursor.close()
     conn.close()
