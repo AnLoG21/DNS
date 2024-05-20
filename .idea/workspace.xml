@@ -5,19 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb57462-67ec-48b2-9d6f-b1b4d421ac57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MVVM/Model/Button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVVM/Model/Entry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVVM/View/Compare_Window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVVM/View/Inretface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/Compare.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/Compare.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/Tree-02.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/warn-Compare.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/build/Compare/xref-Compare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/dist/Compare.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Model/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citilink_Parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/Model/Citilink_Parsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/Model/Compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNS_Parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/Model/DNS_Parsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNS_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/Model/Button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/Model/Compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/Model/Compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/Model/Entry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/View/Compare_Window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/View/Inretface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetDB" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_handlers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +44,7 @@
         <option value="FastAPI main" />
         <option value="FastAPI test_main" />
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -54,45 +69,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test_handlers.test_create_user.executor": "Run",
-    "Python.Citilink_Parsing.executor": "Run",
-    "Python.Citilink_parser.executor": "Run",
-    "Python.Compare.executor": "Run",
-    "Python.DNS_Parsing.executor": "Run",
-    "Python.DNS_parser.executor": "Run",
-    "Python.Inretface.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.tt.executor": "Run",
-    "Python.ttt_dns.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/analo/PycharmProjects/PetProg/DNS_parser.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Docker..venv/docker-compose-local.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose-local.yaml.app: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose-local.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;FastAPI.PetProg.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handlers.test_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Citilink_Parsing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Citilink_parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Compare (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Compare.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DNS_Parsing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DNS_parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inretface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ttt_dns.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/analo/PycharmProjects/PetProg/DNS_parser.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql",
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\analo\PycharmProjects\PetProg\MVVM\Model" />
+      <recent name="C:\Users\analo\PycharmProjects\PetProg\MVVM" />
+      <recent name="C:\Users\analo\PycharmProjects\PetProg" />
       <recent name="C:\Users\analo\PycharmProjects\PetProg\MVVM\View" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Inretface">
+  <component name="RunManager" selected="Docker.docker-compose-local.yaml.app: Compose Deployment">
+    <configuration name="Compare (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PetProg" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MVVM/Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MVVM/Model/Compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PetProg" />
       <option name="ENV_FILES" value="" />
@@ -107,7 +152,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\analo\PycharmProjects\PetProg\MVVM\Model\Compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MVVM/Model/Compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,36 +184,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PetProg" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="PetProg" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
       <module name="PetProg" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\analo\PycharmProjects\PetProg\.venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (PetProg)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -183,28 +206,42 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_handlers.test_create_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PetProg" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_handlers.test_create_user&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    <configuration name=".venv/docker-compose-local.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value=".venv/docker-compose-local.yaml" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose-local.yaml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose-local.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose-local.yaml.app: Compose Deployment" />
+      <item itemvalue="Docker..venv/docker-compose-local.yaml: Compose Deployment" />
+      <item itemvalue="FastAPI.PetProg" />
+      <item itemvalue="Python.Compare" />
+      <item itemvalue="Python.Compare (1)" />
+      <item itemvalue="Python.Inretface" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose-local.yaml.app: Compose Deployment" />
+        <item itemvalue="Docker..venv/docker-compose-local.yaml: Compose Deployment" />
+        <item itemvalue="Python.Compare (1)" />
         <item itemvalue="Python.Inretface" />
         <item itemvalue="Python.Compare" />
-        <item itemvalue="Python tests.Python tests for test_handlers.test_create_user" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +282,11 @@
       <workItem from="1713730346203" duration="1150000" />
       <workItem from="1715591300047" duration="10041000" />
       <workItem from="1715614961774" duration="4353000" />
-      <workItem from="1715677632416" duration="11093000" />
+      <workItem from="1715677632416" duration="11309000" />
+      <workItem from="1716122145763" duration="25056000" />
+      <workItem from="1716152590033" duration="220000" />
+      <workItem from="1716210308909" duration="18368000" />
+      <workItem from="1716238278955" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0.0">
       <option name="closed" value="true" />
@@ -295,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715619170313</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ver 1.0.4">
+      <option name="closed" value="true" />
+      <created>1715690114605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715690114605</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,17 +367,19 @@
     <MESSAGE value="Ver 1.0.1" />
     <MESSAGE value="Ver 1.0.2" />
     <MESSAGE value="Ver 1.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.0.3" />
+    <MESSAGE value="Ver 1.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.0.4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PetProg$DNS_Parsing.coverage" NAME="DNS_Parsing Coverage Results" MODIFIED="1715618975558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PetProg$Compare.coverage" NAME="Compare Coverage Results" MODIFIED="1715617205056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PetProg$Inretface.coverage" NAME="Inretface Coverage Results" MODIFIED="1715689961055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVVM/View" />
+    <SUITE FILE_PATH="coverage/PetProg$DNS_Parsing.coverage" NAME="DNS_Parsing Coverage Results" MODIFIED="1716130927945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVVM/Model" />
+    <SUITE FILE_PATH="coverage/PetProg$Inretface.coverage" NAME="Inretface Coverage Results" MODIFIED="1716124575455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVVM/View" />
+    <SUITE FILE_PATH="coverage/PetProg$Compare.coverage" NAME="Compare Coverage Results" MODIFIED="1716237052766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVVM/Model" />
     <SUITE FILE_PATH="coverage/PetProg$Citilink_parser.coverage" NAME="Citilink_parser Coverage Results" MODIFIED="1713618625892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$DNS_parser.coverage" NAME="DNS_parser Coverage Results" MODIFIED="1713618720017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$main.coverage" NAME="main Coverage Results" MODIFIED="1709893497130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$Citilink_Parsing.coverage" NAME="Citilink_Parsing Coverage Results" MODIFIED="1715618794928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$ttt_dns.coverage" NAME="ttt_dns Coverage Results" MODIFIED="1715616366586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PetProg$Compare__1_.coverage" NAME="Compare (1) Coverage Results" MODIFIED="1716130740866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVVM/Model" />
     <SUITE FILE_PATH="coverage/PetProg$tt.coverage" NAME="tt Coverage Results" MODIFIED="1715616685203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PetProg$.coverage" NAME=" Coverage Results" MODIFIED="1709899202349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
